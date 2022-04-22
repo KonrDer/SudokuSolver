@@ -2,8 +2,8 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 /*
-@author Konrad Henningga
-@author Ujin Hong
+@author Konrad HenniNg
+@author U-Jin Hong
  */
 
 public class Sudoku {
