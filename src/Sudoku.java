@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 /*
-@author Konrad Hennig
+@author Konrad Henningga
 @author Ujin Hong
  */
 
