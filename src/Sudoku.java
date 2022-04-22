@@ -66,7 +66,7 @@ public class Sudoku {
      public boolean isValidSudoku(String[] rows) {
             return false;
         }
-        //Konrad ist gay
+        //Konrad ist gayyyy
 
 
     public void fillGameBoard(String[] rows){
