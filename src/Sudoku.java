@@ -5,15 +5,12 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.stream.Collectors;
-/*
-@author Konrad Henninger
+/**
+@author Konrad Hennig
 @author U-Jin Hong
  */
 
 
-/*
-das hier ist der cringe ujin branch hihihihihihihihi loserrrrrrrrrr
- */
 public class Sudoku {
     private int[][] gameBoard;
 
@@ -43,7 +40,7 @@ public class Sudoku {
                 .distinct()
                 .toArray(String[]::new);
 
-        /*
+        /**
         nur Reihen der Laenge 9, mit gueltigen single-digits und keine Dopplungen(Ausnahme: 0)
          */
         return (validLength && validDigits
@@ -63,11 +60,6 @@ public class Sudoku {
         }
         return true;
     }
-     public boolean isValidSudoku(String[] rows) {
-            return false;
-        }
-        //Konrad ist gayyyyyy
-
 
     public void fillGameBoard(String[] rows){
         for(int i = 0; i < rows.length;i++){
@@ -88,6 +80,7 @@ public class Sudoku {
         int rowCounter = 0;
 
         do {
+            //TODO Ujin fragen ob rowCounter nicht in den do-Block kommt
             while (rowCounter < 9) {
                 String s = in.readLine();
                 if (isValidRow(s)) {
