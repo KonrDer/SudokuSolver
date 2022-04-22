@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 /*
 @author Konrad Hennig
-@author Ujina Chan
+@author Ujin Hong
  */
 
 public class Sudoku {
@@ -34,15 +34,20 @@ public class Sudoku {
             int i = 0;
 
             while(rowCounter < 9){
-                rowContent[i++] = in.readLine();
+                if(!in.readLine().isEmpty()){
+                    rowContent[i++] = in.readLine();
+                }
+                else{
+                    break;
+                }
             }
-
 
         }
     }
 
     @Override
     public String toString(){
+        StringBuilder builder = new StringBuilder();
         return null;
     }
 
