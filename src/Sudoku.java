@@ -63,10 +63,10 @@ public class Sudoku {
         }
         return true;
     }
-
      public boolean isValidSudoku(String[] rows) {
             return false;
         }
+        //Konrad ist gay
 
 
     public void fillGameBoard(String[] rows){
@@ -76,6 +76,7 @@ public class Sudoku {
             }
         }
     }
+
 
     public void fillGameBoardFromConsole() throws IOException {
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
