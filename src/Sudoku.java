@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 /*
 @author Konrad Hennig
-@author Ujin Hong
+@author Ujin Chan
  */
 
 public class Sudoku {
