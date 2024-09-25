@@ -1,6 +1,6 @@
 package org.example;
 
-import org.example.Sudoku;
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

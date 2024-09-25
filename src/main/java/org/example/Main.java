@@ -1,6 +1,5 @@
 package org.example;
 
-import org.example.Sudoku;
 
 import java.util.Arrays;
 import java.util.List;
